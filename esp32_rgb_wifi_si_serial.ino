@@ -7,13 +7,13 @@ const char* WIFI_PASSWORD = "12345678";
 
 // ----------- PINI LED RGBWY -----------
 // ATENTIE: mutati fizic LED-urile pe acesti pini!
-// GPIO3 (RX) si GPIO0 (boot strap) NU trebuie folosite ca iesiri PWM
+
 // cand aveti nevoie si de Serial pentru comenzile vocale.
-const int PIN_RED    = 25;
-const int PIN_GREEN  = 26;
+const int PIN_RED    = 13;
+const int PIN_GREEN  = 14;
 const int PIN_BLUE   = 27;
-const int PIN_WHITE  = 32;
-const int PIN_YELLOW = 33;
+const int PIN_WHITE  = 26;
+const int PIN_YELLOW = 25;
 
 const int PWM_FREQ       = 5000;
 const int PWM_RESOLUTION = 8;
