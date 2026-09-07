@@ -49,9 +49,9 @@ void setChannels(int r, int g, int b, int w, int y) {
   state.r = r; state.g = g; state.b = b; state.w = w; state.y = y;
 }
 
-// ----------- MAPARE MODURI (folosita si de Serial si de web) -----------
-// mod1 = rosu, mod2 = galben (canal Y dedicat), mod3 = verde,
-// mod4 = albastru, mod5 = alb (canal W dedicat)
+//  MAPARE MODURI, folosita si de Serial si de web
+// mod1 = rosu, mod2 = galben , mod3 = verde,
+// mod4 = albastru, mod5 = alb 
 void applyMode(int mod) {
   switch (mod) {
     case 1: setChannels(255, 0,   0,   0,   0);   break; // rosu
